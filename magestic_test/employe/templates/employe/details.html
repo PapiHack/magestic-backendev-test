@@ -1,0 +1,27 @@
+{% extends "_shared/layout.html" %}
+
+{% block title %} Détails d'un employé {% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="mr-3 col-lg-8">
+            <h1>Informations de l'employé {{ employe.prenom }} {{ employe.nom }}</h1>
+            <br/>
+        </div>
+    </div>
+    <div class="col-row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="/{{ employe.photo_de_profil.url }}" width="100%" height="225"/>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{ employe.prenom }} {{ employe.nom }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">Fonction : {{ employe.fonction }}</h6>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">Né le    : {{ employe.date_de_naissance }}</h6>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+{% endblock %}

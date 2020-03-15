@@ -5,8 +5,16 @@ Elle permet d'effectuer des opérations de type `CRUD` (Create, Read, Update and
 
 ## Stack Technique  
 
-ça arrive...
+- Django  
+- Bootstrap 4  
+- SQLite 3
 
-## Notes  
+## Installation  
 
-ça arrive...  
+- Installer les dépendances lister au niveau du fichier `requirements.txt` => `pip install -r requirements.txt`  
+
+- Installer les migrations => `python manage.py makemigrations`  
+
+- Appliquer les migrations => `python manage.py migrate`
+
+- Démarer le serveur => `python manage.py runserver`
