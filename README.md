@@ -17,4 +17,8 @@ Elle permet d'effectuer des opérations de type `CRUD` (Create, Read, Update and
 
 - Appliquer les migrations => `python manage.py migrate`
 
-- Démarer le serveur => `python manage.py runserver`
+- Démarer le serveur => `python manage.py runserver`  
+
+### Notes  
+
+Veillez à ce que `Python` soit disponible en ligne de commande et placez-vous au niveau du répertoire `magestic_test` avant d'exécuter les commandes ci-dessus.  
